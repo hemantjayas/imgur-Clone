@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+   
+}
+
+.mainNav{
+    display: flex;
+    height: 60px;
+}
+.left{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.center{
+    width: 40%;
+}
+.right{
+    width: 35%;
+}
+.left img{
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+}
+.left button{
+    background-color: #1bb76e;
+    font-size: 16px;
+    width: 48%;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    color: white;
+    font-weight: 700;  
+
+}
+.left button img{
+   width: 20%;
+   height: 50%;
+   object-fit: cover;
+
+}
